@@ -2602,6 +2602,15 @@
 		position: relative;
 	}
 
+	.image2 {
+		border-radius: 0.25em;
+		/*border: 0;*/
+		display: inline-block;
+		position: relative;
+		margin-left: 10%;
+		margin-right: auto
+	}
+
 		.image img {
 			border-radius: 0.25em;
 			display: block;
@@ -2623,18 +2632,41 @@
 
 		.image.right {
 			float: right;
-			margin: 0 0 1em 1.5em;
+			/*margin: 0 0 1em 1.5em;*/
 			top: 0.25em;
 		}
 
+
+
 		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
+				display: block;
+				margin: 0 0 2em 0;
+				width: 100%;
+			}
+
+				.image.fit img {
+					width: 100%;
+	}
+
+		.image2.fit {
+						/*margin-left: auto;
+margin-right: auto*/
+			/*border: 100em;*/
+
+			/*margin: 100em 100em 100em 100em;*/
+			/*align: middle;*/
+
+			/*width: 100%;*/
 		}
 
-			.image.fit img {
-				width: 100%;
+			.image2.fit img {
+				/*right: 100em;
+				margin-left: auto;
+margin-right: auto*/
+
+				/*margin: 0 0 2em 0;*/
+
+				/*width: 100%;*/
 			}
 
 		.image.main {
@@ -3229,7 +3261,7 @@
 
 		.wrapper > .inner {
 			padding: 5em 5em 3em 5em ;
-			max-width: 100%;
+			max-width: 70%;
 			width: 75em;
 		}
 
